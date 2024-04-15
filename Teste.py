@@ -20,7 +20,7 @@ conn.commit()
 # Inserir dados na tabela
 cursor.execute(
     "INSERT INTO clientes (nome, email, cpf) VALUES (?, ?, ?)", 
-            ("Andressa", "andressa.mss@hotmail.com", "123.456.789-00"))
+            ("José", "jose.m@gmail.com", "123.456.789-00"))
 conn.commit()
 
 # Consultar todos os registros na tabela
